@@ -38,7 +38,7 @@ The script will:
 - Run `pixi install` in each cloned repository
 - Execute the pixi data download task (if configured)
 
-### 4. What Happens Next
+### What Happens Next
 
 Once the script completes:
 - All repositories will be cloned in separate folders
