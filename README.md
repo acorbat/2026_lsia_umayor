@@ -10,11 +10,20 @@ This is a convenience repository designed to help students and instructors quick
 
 Before running the setup script, ensure you have the following installed:
 
+- **Pixi** - Package manager and environment manager
+  - [Download/Install Pixi](https://pixi.sh/latest/)
+
+  Install Pixi in PowerShell:
+  ```powershell
+  powershell -ExecutionPolicy Bypass -c "irm -useb https://pixi.sh/install.ps1 | iex"
+  ```
+
 - **Git** - Version control system
   - [Download Git](https://git-scm.com/download/win)
   
-- **Pixi** - Package manager and environment manager
-  - [Download/Install Pixi](https://pixi.sh/latest/)
+```powershell
+pixi global install git
+```
 
 ## Usage
 
@@ -27,9 +36,10 @@ cd 2026_lsia_umayor
 
 ### Run the Setup Script
 
-Open PowerShell and navigate to the repository folder, then execute:
+Open PowerShell and navigate to the repository folder. First, enable the execution policy for this session and then execute the setup script:
 
 ```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSignedPolicy -Scope Process
 .\setup-repos.ps1
 ```
 
