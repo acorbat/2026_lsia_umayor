@@ -39,7 +39,7 @@ cd 2026_lsia_umayor
 Open PowerShell and navigate to the repository folder. First, enable the execution policy for this session and then execute the setup script:
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSignedPolicy -Scope Process
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\setup-repos.ps1
 ```
 
