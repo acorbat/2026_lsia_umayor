@@ -3,7 +3,10 @@
 
 # Configuration
 $repositories = @(
-    "https://github.com/cuenca-mb/pixi-napari-assistant.git"
+    "https://github.com/cuenca-mb/pixi-napari-assistant.git",
+    "https://github.com/cuenca-mb/pixi-fiji-macro.git",
+    "https://github.com/acorbat/workshop_3d_dl_segmentation.git",
+    "https://github.com/cuenca-mb/pixi-napari-devbio.git"
 )
 
 # The pixi task name to run for downloading data (adjust as needed)
