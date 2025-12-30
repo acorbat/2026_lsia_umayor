@@ -3,6 +3,7 @@
 
 # Configuration
 $repositories = @(
+    "https://github.com/bruvellu/pixi-practicals-lisiaw-2026.git",
     "https://github.com/cuenca-mb/pixi-napari-assistant.git",
     "https://github.com/cuenca-mb/pixi-fiji-macro.git",
     "https://github.com/acorbat/workshop_3d_dl_segmentation.git",
